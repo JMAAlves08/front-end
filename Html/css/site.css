@@ -1,0 +1,135 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+h2{
+    clear: both;
+}
+main h1 {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+    text-transform: uppercase;
+}
+main{
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+
+
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+    box-sizing: border-box;
+    clear: both;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+
+nav a {
+	color: #F2FFFC;
+}
+
+main a {
+	color: #851944;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+
+main div {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+
+aside {
+	text-align: center;
+    text-transform: lowercase;  
+    width: 15%;
+    
+}
+.Navegacao, .Perfil{
+    
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    float: right;
+    clear: right;
+}
+.Perfil{
+    position: absolute;
+    top:0;
+    right:0;
+    
+}
+.Navegacao{
+    position: relative;
+    top: 310px;
+    right: 0;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.icones-sociais li{
+    display: inline-block;
+    
+}
+.icones-sociais a{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.Github{
+    background-image: url(img/github.png);
+}
+.Twitter{
+    background-image: url(img/twitter.png);
+}
+.LinkedIn{
+    background-image: url(img/linkedin.png);
+}

@@ -1,0 +1,57 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.barra-lateral{
+    background: #C9C9C9;
+    border-right: 5px solid darkgray;
+    width:25%;
+    
+    float: left;
+}
+.lista-info{
+    display: inline;
+}
+
+.lista-info > h1{
+    padding: 5px 5px;
+    color: #4E87DC;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.lista-info li:first-child{
+    padding: 5px 5px;
+    color: #4E87DC;
+    font-weight: bold;
+    font-size: 20px;
+}
+.email:before{
+    content: "📨 ";
+}
+.universidade:before{
+    content:"🎓";
+}
+.sub{
+    padding: 0 5px;
+    font-size: 75%;
+    font-weight: bold;
+}
+.lista-info li{
+     padding: 10px;
+}
+main{
+    width: 75%;
+}
+main > h2{
+    width: flex basis 0;
+    background: #4E87DC;
+    color:white;
+    border: 1px solid #4E87DC;
+    border-radius: 1px;
+    padding: 10px 10px;
+}
+main > p{
+    padding:10px 5px;
+}

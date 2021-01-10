@@ -1,0 +1,61 @@
+body{
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+}
+main a{
+    color: #851944;
+}
+main h1{
+    font-size: 60px;
+    background-color: #851944;
+    color: #F2FFFC;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 20px;
+    
+}
+div{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif
+}
+p{
+    text-align: justify;
+}
+a{
+    font-family: "Open Sans Condensed", sans-serif;
+}
+blockquote {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+}
+.Fiat{
+    float: right;
+}
+.Petrobras{
+    float: left;
+}
+blockquote cite{
+    font-style: italic;
+    float: right;
+}
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+aside, aside a{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+footer{
+    background-color: black;
+    color: #f2fffc;
+}
